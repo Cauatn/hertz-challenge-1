@@ -1,0 +1,28 @@
+# Byte-compiled / cache / temp files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Environment variables
+.env
+
+# VSCode settings (opcional, caso use VSCode)
+.vscode/
+
+# Virtual environment
+venv/
+.venv/
+
+# Docker
+**/docker-compose.override.yml
+**/Dockerfile.*.bak
+
+# Test / coverage outputs
+htmlcov/
+.tox/
+.coverage
+.cache
+.pytest_cache/
+
+# Mypy
+.mypy_cache/
