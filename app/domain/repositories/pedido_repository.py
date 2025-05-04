@@ -6,8 +6,8 @@ class PgPedidoRepository:
         conn = get_db_connection()
         cur = conn.cursor()
         cur.execute("""
-            INSERT INTO pedidos (codigo_pedido, codigo_cliente, valor_total, created_at)
-            VALUES (%s, %s, %s, NOW())
+            INSERT INTO pedidos (codigo_pedido, codigo_cliente, valor_total)
+            VALUES (%s, %s, %s)
         """, (codigo_pedido, codigo_cliente, valor_total))
         conn.commit()
         cur.close()
