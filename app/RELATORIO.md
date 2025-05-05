@@ -80,7 +80,7 @@ CREATE TABLE IF NOT EXISTS pedidos (
 
 ## Evidências de Testes Funcionais
 
-Foram realizados testes manuais e automatizados para validação dos seguintes fluxos:
+Foram realizados testes manuais para validação dos seguintes fluxos:
 
 - Envio de pedidos via API
 - Persistência dos dados no PostgreSQL
