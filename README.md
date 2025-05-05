@@ -7,10 +7,10 @@
 Este é um projeto de software desenvolvido como parte do desafio para a vaga de Engenheiro de Software na HERTZ. A aplicação processa pedidos de clientes, gera relatórios e disponibiliza uma API RESTful para consultar informações sobre pedidos e clientes.
 
 Rotas (Simplificado):
-API flask - http://localhost:5000/
-RabbitMQ - http://localhost:15672/#/
-   login: guest
-   senha: guest
+- API flask - http://localhost:5000/
+- RabbitMQ - http://localhost:15672/#/
+   - login: guest
+   - senha: guest
 
 
 ## Tecnologias Utilizadas
